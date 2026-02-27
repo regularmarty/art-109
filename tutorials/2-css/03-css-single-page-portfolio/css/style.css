@@ -1,0 +1,49 @@
+/* CSS resets  */
+
+* {
+    margin:0;
+    padding: 0;
+
+}
+/* respect your size preferences */
+html {
+    font-size: 100%;
+}
+
+
+/* General CSS */
+
+body{
+    /* background-color: #864c7c; */
+    background: #2a9b84;
+    background: linear-gradient(90deg,rgba(42, 155, 132, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+header {
+    /* makes images into the site
+     background-image: url(../images/image3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    padding: 6rem;
+    margin-bottom: 3rem;
+    /* background-color: #ff080842; */
+    background: #27d65b;
+    background: linear-gradient(360deg,rgba(39, 214, 91, 1) 0%, rgba(214, 9, 9, 1) 60%, rgba(252, 176, 69, 1) 100%);
+    border-bottom: #000 2px solid;
+
+
+    /* text-align: center */
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+main {
+    max-width: 60rem;
+    margin: 2rem auto;
+}
