@@ -1,10 +1,11 @@
 /* CSS resets  */
 
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
 
 }
+
 /* respect your size preferences */
 html {
     font-size: 100%;
@@ -13,10 +14,10 @@ html {
 
 /* General CSS */
 
-body{
+body {
     /* background-color: #864c7c; */
     background: #2a9b84;
-    background: linear-gradient(90deg,rgba(42, 155, 132, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    background: linear-gradient(90deg, rgba(42, 155, 132, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
     font-family: sans-serif;
     font-size: 1.5rem;
     line-height: 1.5;
@@ -32,7 +33,7 @@ header {
     margin-bottom: 3rem;
     /* background-color: #ff080842; */
     background: #27d65b;
-    background: linear-gradient(360deg,rgba(39, 214, 91, 1) 0%, rgba(214, 9, 9, 1) 60%, rgba(252, 176, 69, 1) 100%);
+    background: linear-gradient(360deg, rgba(39, 214, 91, 1) 0%, rgba(214, 9, 9, 1) 60%, rgba(252, 176, 69, 1) 100%);
     border-bottom: #000 2px solid;
 
 
@@ -43,7 +44,68 @@ header h1 {
     font-size: 3rem;
 }
 
-main {
-    max-width: 60rem;
+main {}
+
+.about-section,
+.portfolio-section,
+.contact-section {
+    margin: 5rem;
+}
+
+
+.about-content,
+.portfolio-content,
+.contact-content {
+    max-width: 50rem;
     margin: 2rem auto;
 }
+
+.about-content h2,
+.portfolio-content h2,
+.contact-content h2 {
+    padding: 2rem 0;
+}
+
+    .portfolio-item {
+        margin-bottom: 5rem;
+        background-color: #43dd53a3;
+        padding: 4rem;
+        text-align: justify;
+        border-radius: 5rem;
+        box-shadow: 10px 10px lightcoral;
+        /* box-shadow: 30px 30px lightseagreen;  */
+        */ */ border: 2px #000 solid;
+        border-style: solid;
+
+
+    }
+
+    .portfolio-item img {
+        max-width: 100%;
+        margin: 0 auto;
+        display: block;
+        border-radius: .5rem;
+        box-shadow: 0 4px 6px lightcoral;
+        /*makes corners roundish
+    /* only works on block elements */
+    }
+
+    .portfolio-item h3 {
+        margin: 1rem 0;
+    }
+
+    .portfolio-item p {
+        font-size: 1.2rem;
+    }
+
+    .about-section {
+        background-color: #8feff49f;
+        border-radius: .5rem;
+        border: 2px #000 solid;
+
+    }
+
+    .portfolio-section {
+        background-color: #43dd53a3;
+        box-shadow: 10px 10px greenyellow;
+    }
