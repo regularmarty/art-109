@@ -52,12 +52,15 @@ nav{
 }
 nav a {
     text-decoration: none;
-    color: rgb(171, 233, 255);
+    /* color: rgb(171, 233, 255); */
     display: inline-block;
     margin: 0 1rem;
     
 
 
+}
+nav a:hover{
+    background-color: #000000;
 }
 
 main {}
