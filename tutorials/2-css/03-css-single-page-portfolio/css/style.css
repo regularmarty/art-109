@@ -1,4 +1,18 @@
-/* CSS resets  */
+/* ~~~~~~~~~~~~~~~~~~color palete~~~~~~~~~~~~~~~~~~ */
+
+:root {
+--bg-color-1: #fff;
+--bg-color-2: #e9ebe8;
+--font: #111;
+--accent-1: #b7fa70;
+--accent-2:#d3acfa;
+--dark:#222;
+}
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~CSS resets~~~~~~~~~~~~~~~~~~  */
 
 * {
     margin: 0;
@@ -16,8 +30,11 @@ html {
 
 body {
     /* background-color: #864c7c; */
-    background: #2a9b84;
-    background: linear-gradient(90deg, rgba(42, 155, 132, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    background-color: var(--accent-1);
+    color: var(--font);
+
+    /* background: #2a9b84; */
+    /* background: linear-gradient(90deg, rgba(42, 155, 132, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%); */
     font-family: sans-serif;
     font-size: 1.5rem;
     line-height: 1.5;
@@ -42,25 +59,31 @@ header {
 
 header h1 {
     font-size: 3rem;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color:var(--accent-1);
 }
+
 nav {
     position: absolute;
     right: 2rem;
     top: 2rem;
-    
-    
+
+
 }
+
 nav a {
     text-decoration: none;
-    color: rgb(255, 124, 124);
+    color: rgb(255, 192, 55);
     display: inline-block;
     margin: 0 1rem;
-    
+
 
 
 }
-nav a:hover{
-    color: #5a2020;
+
+nav a:hover {
+    background-color: #5a2020;
 }
 
 main {}
@@ -86,56 +109,71 @@ main {}
     padding: 2rem 0;
 }
 
-    .portfolio-item {
-        margin-bottom: 5rem;
-        background-color: #43dd53a3;
-        padding: 4rem;
-        text-align: justify;
-        border-radius: 5rem;
-        box-shadow: 10px 10px lightcoral;
-        /* box-shadow: 30px 30px lightseagreen;  */
-        border: 2px #000 solid;
-        border-style: solid;
+.portfolio-item {
+    margin-bottom: 5rem;
+    background-color: #43dd53a3;
+    padding: 4rem;
+    text-align: justify;
+    border-radius: 5rem;
+    box-shadow: 10px 10px lightcoral;
+    /* box-shadow: 30px 30px lightseagreen;  */
+    border: 2px #000 solid;
+    border-style: solid;
 
 
-    }
+}
 
-    .portfolio-item img {
-        max-width: 100%;
-        margin: 0 auto;
-        display: block;
-        border-radius: .5rem;
-        box-shadow: 0 4px 6px lightcoral;
-        /*makes corners roundish
+.portfolio-item img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: .5rem;
+    box-shadow: 0 4px 6px lightcoral;
+    /*makes corners roundish
     /* only works on block elements */
-    }
+}
 
-    .portfolio-item h3 {
-        margin: 1rem 0;
-    }
+.portfolio-item h3 {
+    margin: 1rem 0;
+}
 
-    .portfolio-item p {
-        font-size: 1.2rem;
-    }
+.portfolio-item p {
+    font-size: 1.2rem;
+}
 
-    .about-section {
-        background-color: #8feff49f;
-        border-radius: .5rem;
-        border: 2px #000 solid;
+.about-section {
+    background-color: #8feff49f; 
+    border-radius: .5rem;
+    border: 2px #000 solid;
 
-    }
+}
 
-    .portfolio-section {
-        background-color: #43dd53a3;
-        box-shadow: 10px 10px greenyellow;
-    }
+.portfolio-section {
+    background-color: #cdffd0;
+    box-shadow: 10px 10px greenyellow; 
+}
 
-    footer {
-        background-color: #000;
-        color: #eee;
-        padding: 1rem;
-        text-align: right;
-    }
-    footer p {
-        font-size: 1.2rem;
-    }
+footer {
+    background-color: var(--dark);
+    color: #eee;
+    padding: 1rem;
+    text-align: right;
+}
+
+footer p {
+    font-size: 1.2rem;
+}
+
+/* style classes */
+
+.accent-1 {
+    color: var(--accent-1);
+    /* color: rgb(197, 117, 178); */
+
+}
+
+.accent-2 {
+    color: var(--accent-2);
+    /* color: #2adf63; */
+
+}
