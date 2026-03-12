@@ -115,7 +115,7 @@ main {
 
 }
 
-@media (max-width:850px){
+/* @media (max-width:850px){
     main {
         margin: 2rem;
     }
@@ -123,7 +123,7 @@ main {
     main {
         margin: 1rem;
     }
-}
+} */
 
 
 .about-section,
@@ -191,9 +191,9 @@ main {
 }
 
 .about-section {
-    background-color: #8feff49f; 
-    border-radius: .5rem;
-    border: 2px #000 solid;
+    /* background-color: #8feff49f;  */
+    /* border-radius: .5rem; */
+    /* border: 2px #000 solid; */
 
 }
 
@@ -227,3 +227,4 @@ footer p {
 
 }
 
+}
