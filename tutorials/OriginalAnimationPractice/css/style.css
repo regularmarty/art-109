@@ -1,0 +1,136 @@
+
+
+
+
+body {
+    animation: change-color 10s infinite alternate;
+    /* background-color: antiquewhite; */
+
+}
+
+
+@keyframes change-color {
+    0% {
+        background-color: rgba(255, 235, 11, 0.663);
+    }
+
+    50% {
+        background-color: rgb(217, 0, 255);
+    }
+
+    100% {
+        background-color: rgba(255, 68, 68, 0.38);
+    }
+
+    100% {
+        background-color: rgb(12, 231, 154);
+    }
+}
+
+@keyframes skew {
+    0% {
+        transform: skew(0deg, 0deg);
+    }
+
+    50% {
+        transform: skew(30deg, 20deg);
+    }
+}
+
+/* @keyframes skew{
+0%{transform:skew(0deg, 0deg);}
+50% {transform: skew(30deg, 20deg);}
+} */
+
+
+.title {
+    font-family: fantasy;
+    text-align: center;
+    margin: 50px auto;
+    animation: skew 5s infinite alternate;
+}
+
+.square {
+    background-color: orangered;
+    width: 200px;
+    height: 200px;
+    /* smoothes edges */
+    border-radius: 20px;
+    margin: 50px auto;
+    transition: all 1s;
+}
+
+
+.square:hover {
+    background-color: greenyellow;
+    transform: rotate(360deg);
+
+
+}
+
+
+.button-div {
+    text-align: center;
+}
+
+.button {
+    color: white;
+    background-color: green;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .5s;
+
+    /* margin: 50px auto;
+    text-decoration: none; */
+    /* display: block;
+    width: 100px;
+    text-align: center; */
+}
+
+.button:hover {
+    background-color: rgb(49, 197, 255);
+    color: black;
+    transform: scale(1.5);
+}
+
+/* Happy image rendering animation */
+
+.Happy-div {
+text-align: center;
+margin: 50px auto;
+padding: 20px;
+
+
+
+
+}
+.Happy-div:hover {
+text-align: center;
+margin: 50px auto;
+transform: rotate(360deg);
+transition: transform 3s;
+transform: scale(2);
+animation: skew 5s infinite alternate;
+
+
+
+
+}
+
+/* .Happyface:hover {
+    
+    transform: scale(1.5);
+} */
+
+
+@keyframes stretch {
+    0% {
+        width: 100px;
+    }
+
+    100% {
+        width: 80vw;
+    }
+}
