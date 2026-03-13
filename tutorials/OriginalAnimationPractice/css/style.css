@@ -51,7 +51,7 @@ body {
 }
 .title2 {
     font-family: fantasy;
-    text-align: center;
+    text-align: left, bottom;
     margin: 50px auto;
     animation: skew 5s infinite alternate;
 }
