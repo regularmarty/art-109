@@ -45,11 +45,22 @@ body {
 
 .title {
     font-family: fantasy;
+    text-align: bottom;
+    margin: 50px auto;
+    animation: skew 5s infinite alternate;
+}
+.title2 {
+    font-family: fantasy;
     text-align: center;
     margin: 50px auto;
     animation: skew 5s infinite alternate;
 }
-
+.title3 {
+    font-family: fantasy;
+    text-align: right;
+    margin: 50px auto;
+    animation: skew 5s infinite alternate;
+}
 .square {
     background-color: orangered;
     width: 200px;
