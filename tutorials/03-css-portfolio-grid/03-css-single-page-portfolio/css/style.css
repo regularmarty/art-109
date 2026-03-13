@@ -1,0 +1,46 @@
+/* ~~~~~~~~~~~~~~~~~~color palete~~~~~~~~~~~~~~~~~~ */
+
+:root {
+    --bg-color-1: #111;
+    --bg-color-2: #e9ebe8;
+    --font: #f9f9f7;
+    --accent-1: #b7fa70;
+    --accent-2: #d3acfa;
+    --dark: #222;
+}
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~CSS resets~~~~~~~~~~~~~~~~~~  */
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* respect your size preferences */
+html {
+    font-size: 100%;
+}
+
+
+/* /General CSS *-------------/ */
+
+body {
+    background-color: var(--bg-color-1);
+    color: var(--font);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+header{
+    padding: 5rem 2rem;
+}
+
+footer {
+    padding: 1rem 2rem;
+}
