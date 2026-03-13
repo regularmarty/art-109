@@ -33,16 +33,7 @@ body {
     }
 
     50% {
-        transform: skew(40deg, 20deg);
-    }
-}
-@keyframes skew {
-    0% {
-        transform: skew(0deg, 0deg);
-    }
-
-    50% {
-        transform: skew(40deg, 20deg);
+        transform: skew(0deg, 20deg);
     }
 }
 
@@ -54,7 +45,7 @@ body {
 
 .title {
     font-family: fantasy;
-    text-align: bottom;
+    text-align: center;
     margin: 50px auto;
     animation: skew 5s infinite alternate;
 }
@@ -70,6 +61,7 @@ body {
     margin: 50px auto;
     animation: skew 5s infinite alternate;
 }
+
 .square {
     background-color: orangered;
     width: 200px;
