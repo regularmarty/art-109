@@ -25,6 +25,13 @@ html {
     font-size: 100%;
 }
 
+/* make images responsive */
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
 
 /* /General CSS *-------------/ */
 
@@ -37,10 +44,72 @@ body {
 
 }
 
-header{
+header {
     padding: 5rem 2rem;
 }
 
+header h1 {
+    text-shadow: -5px 5px 0px #00e6e6cc, -10px 10px 0px #01cccc99,
+     -15px 15px 0px #00bdbd44, -7px -11px 5px rgba(206, 89, 55, 0.05);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--font);
+    margin: 0 1rem;
+
+}
+
+nav a:hover {
+    color: var(--accent-2);
+    /* /transition ease in */
+    transition: all .5s ease;
+}
+
+.about-content,
+.portfolio-content,
+.contact-content {
+    max-width: 60rem;
+    margin: 5rem auto;
+}
+
+.about-content h2,
+.portfolio-content h2,
+.contact-content h2 {
+    margin: 2rem;
+
+}
+
+
+
+
+
+
+
+
 footer {
     padding: 1rem 2rem;
+}
+
+footer img {
+    display: inline;
+    max-width: 3rem;
+    margin: 0.5rem;
+}
+
+
+
+/* -------------------flex styling______________ */
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-container-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-item-grid {
+    flex: 1 1 25%;
 }
