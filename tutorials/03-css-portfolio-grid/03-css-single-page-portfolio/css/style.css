@@ -51,11 +51,13 @@ body {
     font-size: 1.5rem;
     line-height: 1.5;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* text-align: justify; */
 
 }
 
 header {
     padding: 5rem 2rem;
+    margin-bottom: 7rem;
 }
 
 header h1 {
@@ -76,11 +78,27 @@ nav a:hover {
     transition: all .5s ease;
 }
 
+main{
+    margin: 0;
+
+}
+@media (max-width: 1030px){
+    main {
+        margin: 2rem;
+    }
+}
+
+@media(max-width: 750px){
+    main{
+        margin: 1rem; 
+    }
+}
+
 .about-content,
 .portfolio-content,
 .contact-content {
     max-width: 60rem;
-    margin: 5rem auto;
+    margin: 0rem auto 7rem auto;
 }
 
 .about-content h2,
@@ -94,6 +112,7 @@ nav a:hover {
     padding: 1rem;
     background-color: var(--font);
     color: var(--bg-color-1);
+    /* border-radius: .3rem; */
 }
 
 .portfolio-item p{
@@ -102,6 +121,10 @@ nav a:hover {
 
 .portfolio-item h3{
     font-size: 1.3rem;
+}
+
+.portfolio-item img{
+    /* border-radius: .3rem; */
 }
 
 
