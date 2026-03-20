@@ -44,6 +44,9 @@ img {
 
 
 /* /General CSS *-------------/ */
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: var(--bg-color-1);
@@ -100,12 +103,21 @@ nav a:hover {
 }
 
 @media (max-width: 750px) {
+    .navbar{
+        align-items: flex-start;
+    }
     .hamburger {
         display: block;
     }
 
     .nav-menu {
         display: none;
+
+    }
+    .nav-menu.active {
+        display: flex;
+        flex-direction: column;
+
     }
 
     header {
