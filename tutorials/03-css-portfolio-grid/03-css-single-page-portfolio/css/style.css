@@ -102,12 +102,18 @@ nav a:hover {
     gap: 1rem;
 }
 
+
 @media (max-width: 750px) {
     .navbar{
         align-items: flex-start;
     }
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
     .hamburger {
         display: block;
+        align-self: flex-end;
     }
 
     .nav-menu {
@@ -117,6 +123,13 @@ nav a:hover {
     .nav-menu.active {
         display: flex;
         flex-direction: column;
+        background-color: var(--font);
+        padding: 1rem;
+        
+
+    }
+    .nav-menu a {
+        color: var(--dark);
 
     }
 
@@ -188,8 +201,29 @@ footer {
 
 footer img {
     display: inline;
-    max-width: 3rem;
+    max-width: 2.5rem;
     margin: 0.5rem;
+}
+
+@media (max-width:750px) {
+
+    footer: p {
+        font-size: 1.2rem;
+    }
+
+    footer img {
+        max-width: 2rem;
+        margin: 0.2rem;
+    }
+}
+@media (max-width: 450px){
+    footer p {
+        font-size: 1.5rem;
+    }
+    footer img {
+        max-width: 1.5rem;
+        margin: 0.1rem;
+    }
 }
 
 
