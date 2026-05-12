@@ -191,9 +191,10 @@ main {
     font-size: 1.3rem;
 }
 
-.portfolio-item img {
-    /* border-radius: .3rem; */
-}
+/* .portfolio-item img {
+    border-radius: .3rem;
+    
+} */
 
 
 
@@ -213,7 +214,7 @@ footer img {
 
 @media (max-width:750px) {
 
-    footer: p {
+    footer p {
         font-size: 1.2rem;
     }
 
