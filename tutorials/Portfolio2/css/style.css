@@ -5,7 +5,7 @@
     --bg-color-2: #2ca4cdf1;
     --font: #a90c0c;
     --accent-1: #b7fa70;
-    --accent-2: #8000ff;
+    --accent-2: #008397;
     --dark: #222;
 }
 
@@ -50,7 +50,7 @@ html{
 
 body {
     background-image: url(/tutorials/Portfolio2/images/Noisetexture.svg);
-    background-color: var(--bg-color-2);
+    background-color: var(--accent-2);
     color: var(--bg-color-1);
     font-size: 1.5rem;
     line-height: 1.5;
