@@ -29,7 +29,7 @@
               'stroke-linecap="butt" fill="none" stroke-linejoin="round"/>' +
             '</svg>',
         closeX = '<svg width="30" height="30">' +
-            '<g stroke="rgba(255, 0, 0, 1)" stroke-width="4">' +
+            '<g stroke="rgba(172, 13, 13, 1)" stroke-width="4">' +
             '<line x1="5" y1="5" x2="25" y2="25"/>' +
             '<line x1="5" y1="25" x2="25" y2="5"/>' +
             '</g></svg>';
