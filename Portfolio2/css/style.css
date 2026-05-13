@@ -50,7 +50,7 @@ html{
 
 body {
     background-color: var(--accent-2);
-    background-image: url(/tutorials/Portfolio2/images/Noisetexture.svg);
+    background-image: url(/Portfolio2/images/Noisetexture.svg);
     color: var(--bg-color-1);
     font-size: 1.5rem;
     line-height: 1.5;
