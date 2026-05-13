@@ -172,7 +172,7 @@ main {
 }
 
 .portfolio-item {
-    background-image: url("/Portfolio2/images/Redtexture.svg");
+    background-image: url("../images/Redtexture.svg");
     padding: 1rem;
     background-color: var(--font);
     color: var(--bg-color-1);
