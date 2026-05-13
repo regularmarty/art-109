@@ -172,15 +172,15 @@ main {
 }
 
 .portfolio-item {
-     background-image: url("/Portfolio2/images/Redtexture.svg");
+    background-image: url("/Portfolio2/images/Redtexture.svg");
     padding: 1rem;
     background-color: var(--font);
     color: var(--bg-color-1);
     /* background-color: #b83232; */
-    background-image: url("/Portfolio2/images/Redtexture.svg");
+    /* background-image: url("/Portfolio2/images/Redtexture.svg"); */
     /* background-repeat: repeat; */
     /* background-size: 300px; */
-    background-blend-mode: multiply;
+    /* background-blend-mode: multiply; */
     /* border-radius: .3rem; */
 }
 
